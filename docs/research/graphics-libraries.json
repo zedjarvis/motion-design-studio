@@ -1,0 +1,257 @@
+{
+  "researchedAt": "2026-10-31",
+  "order": [
+    "p5-brush",
+    "p5",
+    "thinking-orbs",
+    "roughjs",
+    "animejs",
+    "pixijs"
+  ],
+  "libraries": {
+    "p5-brush": {
+      "version": "3.0.0",
+      "license": "MIT",
+      "capabilityFamilies": 14,
+      "sources": [
+        {
+          "title": "Official repository and full API",
+          "url": "https://github.com/acamposuribe/p5.brush"
+        },
+        {
+          "title": "Standalone lifecycle and coordinate contract",
+          "url": "https://github.com/acamposuribe/p5.brush/blob/main/docs/standalone.md"
+        },
+        {
+          "title": "Author-maintained agent reference",
+          "url": "https://github.com/acamposuribe/p5.brush/blob/main/llms.txt"
+        },
+        {
+          "title": "Installed package source",
+          "url": "https://www.npmjs.com/package/p5.brush/v/3.0.0"
+        }
+      ]
+    },
+    "p5": {
+      "version": "2.3.4",
+      "license": "LGPL-2.1",
+      "capabilityFamilies": 14,
+      "sources": [
+        {
+          "title": "Tutorial catalog and learning paths",
+          "url": "https://p5js.org/tutorials/"
+        },
+        {
+          "title": "API categories",
+          "url": "https://p5js.org/reference/"
+        },
+        {
+          "title": "Stopped loop",
+          "url": "https://p5js.org/reference/p5/noLoop/"
+        },
+        {
+          "title": "Awaited redraw",
+          "url": "https://p5js.org/reference/p5/redraw/"
+        },
+        {
+          "title": "Random seed",
+          "url": "https://p5js.org/reference/p5/randomSeed/"
+        },
+        {
+          "title": "Noise seed",
+          "url": "https://p5js.org/reference/p5/noiseSeed/"
+        },
+        {
+          "title": "Coordinates / transforms",
+          "url": "https://p5js.org/tutorials/coordinates-and-transformations/"
+        },
+        {
+          "title": "Curves",
+          "url": "https://p5js.org/tutorials/custom-shapes-and-smooth-curves/"
+        },
+        {
+          "title": "Framebuffers",
+          "url": "https://p5js.org/tutorials/layered-rendering-with-framebuffers/"
+        },
+        {
+          "title": "WebGL performance",
+          "url": "https://p5js.org/tutorials/optimizing-webgl-sketches/"
+        },
+        {
+          "title": "Canvas descriptions",
+          "url": "https://p5js.org/tutorials/writing-accessible-canvas-descriptions/"
+        }
+      ]
+    },
+    "thinking-orbs": {
+      "version": "0.3.2",
+      "license": "MIT",
+      "capabilityFamilies": 14,
+      "sources": [
+        {
+          "title": "Official repo, states and web component",
+          "url": "https://github.com/Jakubantalik/thinking-orbs"
+        },
+        {
+          "title": "Pure engine entry point",
+          "url": "https://github.com/Jakubantalik/thinking-orbs/blob/main/src/engine/index.ts"
+        },
+        {
+          "title": "Frame data and painter",
+          "url": "https://github.com/Jakubantalik/thinking-orbs/blob/main/src/engine/core.ts"
+        },
+        {
+          "title": "Preset tuning",
+          "url": "https://github.com/Jakubantalik/thinking-orbs/blob/main/src/presets.ts"
+        },
+        {
+          "title": "Autonomous React lifecycle",
+          "url": "https://github.com/Jakubantalik/thinking-orbs/blob/main/src/ThinkingOrb.tsx"
+        }
+      ],
+      "publishedAdditions": [
+        "32px interpolated preset",
+        "ink tint",
+        "density",
+        "dot size",
+        "custom geometry",
+        "pointer gravity"
+      ]
+    },
+    "roughjs": {
+      "version": "4.6.6",
+      "license": "MIT",
+      "capabilityFamilies": 14,
+      "sources": [
+        {
+          "title": "Official site",
+          "url": "https://roughjs.com/"
+        },
+        {
+          "title": "Full options, geometry and seeding",
+          "url": "https://github.com/rough-stuff/rough/wiki"
+        },
+        {
+          "title": "Generator API",
+          "url": "https://github.com/rough-stuff/rough/wiki/RoughGenerator"
+        },
+        {
+          "title": "Installed source",
+          "url": "https://github.com/rough-stuff/rough"
+        }
+      ]
+    },
+    "animejs": {
+      "version": "4.5.0",
+      "license": "MIT",
+      "capabilityFamilies": 12,
+      "sources": [
+        {
+          "title": "Official v4 documentation",
+          "url": "https://animejs.com/documentation/"
+        },
+        {
+          "title": "Animation / targets",
+          "url": "https://animejs.com/documentation/animation/"
+        },
+        {
+          "title": "Timeline API",
+          "url": "https://animejs.com/documentation/timeline/"
+        },
+        {
+          "title": "Seek milliseconds and callback control",
+          "url": "https://animejs.com/documentation/timeline/timeline-methods/seek/"
+        },
+        {
+          "title": "Engine loop control",
+          "url": "https://animejs.com/documentation/engine/engine-properties/"
+        },
+        {
+          "title": "SVG tools",
+          "url": "https://animejs.com/documentation/svg/"
+        },
+        {
+          "title": "Text tools",
+          "url": "https://animejs.com/documentation/text/"
+        },
+        {
+          "title": "Scoped lifecycle",
+          "url": "https://animejs.com/documentation/scope/"
+        },
+        {
+          "title": "Stagger tools",
+          "url": "https://animejs.com/documentation/utilities/stagger/"
+        }
+      ]
+    },
+    "pixijs": {
+      "version": "8.22.0",
+      "license": "MIT",
+      "capabilityFamilies": 14,
+      "sources": [
+        {
+          "title": "Official v8 introduction",
+          "url": "https://pixijs.com/8.x/guides/getting-started/intro"
+        },
+        {
+          "title": "Async Application and options",
+          "url": "https://pixijs.com/8.x/guides/components/application"
+        },
+        {
+          "title": "Render loop / ticker contract",
+          "url": "https://pixijs.com/8.x/guides/concepts/render-loop"
+        },
+        {
+          "title": "Scene graph",
+          "url": "https://pixijs.com/8.x/guides/concepts/scene-graph"
+        },
+        {
+          "title": "Graphics and context ownership",
+          "url": "https://pixijs.com/8.x/guides/components/scene-objects/graphics"
+        },
+        {
+          "title": "Assets",
+          "url": "https://pixijs.com/8.x/guides/components/assets"
+        },
+        {
+          "title": "Particles",
+          "url": "https://pixijs.com/8.x/guides/components/scene-objects/particle-container"
+        },
+        {
+          "title": "Official performance guidance",
+          "url": "https://pixijs.com/8.x/guides/concepts/performance-tips"
+        }
+      ]
+    }
+  },
+  "installedPackages": {
+    "p5": {
+      "version": "2.3.4",
+      "license": "LGPL-2.1"
+    },
+    "p5.brush": {
+      "version": "3.0.0",
+      "license": "MIT"
+    },
+    "thinking-orbs": {
+      "version": "0.3.2",
+      "license": "MIT"
+    },
+    "roughjs": {
+      "version": "4.6.6",
+      "license": "MIT"
+    },
+    "animejs": {
+      "version": "4.5.0",
+      "license": "MIT"
+    },
+    "pixi.js": {
+      "version": "8.22.0",
+      "license": "MIT"
+    },
+    "playwright": {
+      "version": "1.62.1",
+      "license": "Apache-2.0"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "researchDate": "2026-10-31",
+  "entries": [
+    {
+      "file": "screen-studio-cursor-settings.png",
+      "url": "https://cdn.sanity.io/images/2ltoq22u/production/37270bb1487303ccd53eecc48dde8ce2ecc0a0fa-2560x1920.png?w=1280",
+      "page": "https://screen.studio/guide/cursor",
+      "sha256": "f8b6432e5438a60e95e8fd3c6d575242c4fa8429754540c30f7bcf70e583084b",
+      "bytes": 347149,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "screen-studio-advanced.png",
+      "url": "https://cdn.sanity.io/images/2ltoq22u/production/46387891b6c0ed6fcd818d7631ad91fcfeeff37d-2560x1920.png?w=1280",
+      "page": "https://screen.studio/guide/cursor",
+      "sha256": "477980e6217760adad87502db816a009a967893163f8dfa21bd7afef7b74bb2b",
+      "bytes": 406206,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "tella-hand.svg",
+      "url": "https://www.tella.com/marketing-site/screen-effects/cursors/mac-pointinghand.svg",
+      "page": "https://www.tella.com/screen-effects",
+      "sha256": "a9a00b4cb25793a7e676b211a47035389b29afc1aad2f9203fcbfdbc88dd113a",
+      "bytes": 4111,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "tella-arrow.svg",
+      "url": "https://www.tella.com/assets/cursors/mac-goldengate/preview.svg",
+      "page": "https://www.tella.com/screen-effects",
+      "sha256": "6b08297f9186352e84ac3627ac2725688067e3f41671e50957a751eeb27c6efe",
+      "bytes": 4573,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "tella-editor.png",
+      "url": "https://www.tella.com/marketing-site/animated-cursors-screen-recording.png",
+      "page": "https://www.tella.com/blog/animated-cursors-for-screen-recordings",
+      "sha256": "8175e7ba60edcace8d9e865625bf0d2724ad1e2d4179c2ab8572fd3aa0d9d67b",
+      "bytes": 418304,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "tella-touch.svg",
+      "url": "https://www.tella.com/assets/cursors/touch/touch.svg",
+      "page": "https://www.tella.com/screen-effects",
+      "sha256": "b4deb4d76eaf514fbc381ecd40d205a7f4380cdba094ea0eab393f34fefc43bd",
+      "bytes": 668,
+      "status": "downloaded",
+      "use": "Official visual reference only. Copyright belongs to its publisher. Never copy into production assets."
+    },
+    {
+      "file": "tella-demo-2s.jpg",
+      "page": "https://www.tella.com/screen-effects",
+      "url": "https://www.tella.com/marketing-site/media/screen-effects-hero.mp4",
+      "sourceVideoSha256": "6e4a8078d11c55c0e9de615d823ff8b08729fce6b5c204691487453169b9c0f9",
+      "timeSeconds": 2,
+      "sha256": "ba95e39b4167c43508c2bc774474e8f4e5a09c276bbe21cbef2879364fb60bd4",
+      "use": "Official promotional video frame, research-only. Publisher: Tella HQ Inc. Never include in production media."
+    },
+    {
+      "file": "tella-demo-5s.jpg",
+      "page": "https://www.tella.com/screen-effects",
+      "url": "https://www.tella.com/marketing-site/media/screen-effects-hero.mp4",
+      "sourceVideoSha256": "6e4a8078d11c55c0e9de615d823ff8b08729fce6b5c204691487453169b9c0f9",
+      "timeSeconds": 5,
+      "sha256": "aaa5a32bd01a16172a5c4fe0c712170cf8d295562f90b306079fcd69d098b206",
+      "use": "Official promotional video frame, research-only. Publisher: Tella HQ Inc. Never include in production media."
+    },
+    {
+      "file": "tella-demo-8s.jpg",
+      "page": "https://www.tella.com/screen-effects",
+      "url": "https://www.tella.com/marketing-site/media/screen-effects-hero.mp4",
+      "sourceVideoSha256": "6e4a8078d11c55c0e9de615d823ff8b08729fce6b5c204691487453169b9c0f9",
+      "timeSeconds": 8,
+      "sha256": "04faf0a85d225be60578fa34efab0b31cda868b5e8df8fd5f4cae0dd3e5a605b",
+      "use": "Official promotional video frame, research-only. Publisher: Tella HQ Inc. Never include in production media."
+    }
+  ]
+}

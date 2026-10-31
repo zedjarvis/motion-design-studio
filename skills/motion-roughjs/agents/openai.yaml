@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rough.js for Motion"
+  short_description: "Frame-controlled Rough.js artwork and film effects"
+  default_prompt: "Use $motion-roughjs to author and verify a frame-controlled visual for this film."

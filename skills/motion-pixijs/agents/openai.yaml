@@ -1,0 +1,4 @@
+interface:
+  display_name: "PixiJS for Motion"
+  short_description: "Frame-controlled PixiJS artwork and film effects"
+  default_prompt: "Use $motion-pixijs to author and verify a frame-controlled visual for this film."

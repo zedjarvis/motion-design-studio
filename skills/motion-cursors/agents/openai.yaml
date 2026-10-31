@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Demo Cursors"
+  short_description: "Anchored cursors and frame-synced click effects"
+  default_prompt: "Use $motion-cursors to add a polished cursor and synchronized click effects to this product demo."

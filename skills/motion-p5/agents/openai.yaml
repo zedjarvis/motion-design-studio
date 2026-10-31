@@ -1,0 +1,4 @@
+interface:
+  display_name: "p5.js for Motion"
+  short_description: "Frame-controlled p5.js artwork and film effects"
+  default_prompt: "Use $motion-p5 to author and verify a frame-controlled visual for this film."
