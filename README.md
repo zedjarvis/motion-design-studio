@@ -14,8 +14,9 @@ reference images or videos are required for original films.
 
 ## Quick start
 
-Requirements: **Node.js 24+**, **Python 3.11+**, **FFmpeg/ffprobe**, and a local
-Chrome/Chromium executable. Linux is the tested render environment.
+Requirements: **Node.js 24+**, **Python 3.11+**, **FFmpeg/ffprobe**, **ripgrep (`rg`)**,
+and a local Chrome/Chromium executable. Linux is the tested render environment.
+On Ubuntu, install the media/repo tools with `sudo apt-get install ffmpeg ripgrep`.
 
 ```bash
 git clone https://github.com/zedjarvis/motion-design-studio.git

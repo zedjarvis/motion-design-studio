@@ -1,6 +1,6 @@
 # Tests, coverage and acceptance
 
-Use Node 24+, Python 3.11+, FFmpeg/ffprobe and Chrome. Dependencies are pinned in
+Use Node 24+, Python 3.11+, FFmpeg/ffprobe, ripgrep and Chrome. Dependencies are pinned in
 pnpm-lock.yaml; coverage.py is pinned in scripts/test-requirements.txt.
 
 ## Unit and regression tests
