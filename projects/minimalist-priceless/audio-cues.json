@@ -1,0 +1,52 @@
+{
+  "project": "minimalist-priceless",
+  "fps": 60.0,
+  "durationInFrames": 535,
+  "syncStatus": "fitted to reference ASR phrase bounds; final listening review pending",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3",
+    "gain": 0.12,
+    "fadeInFrames": 7,
+    "fadeOutFrames": 42
+  },
+  "cues": [
+    {
+      "frame": 36,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.135,
+      "action": "Coin stack"
+    },
+    {
+      "frame": 188,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.12,
+      "action": "Smile"
+    },
+    {
+      "frame": 274,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.12,
+      "action": "Pendulum entrance"
+    },
+    {
+      "frame": 329,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.12,
+      "action": "Pendulum contact"
+    },
+    {
+      "frame": 375,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.105,
+      "action": "Pendulum contact"
+    },
+    {
+      "frame": 397,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.12,
+      "action": "Earth reveal"
+    }
+  ],
+  "voiceover": true,
+  "method": "Brag --voice: local Kokoro af_heart narration plus licensed Sascha Ende music and Kenney SFX. Music ducks to 0.13 beneath speech."
+}

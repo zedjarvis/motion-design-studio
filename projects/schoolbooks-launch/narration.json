@@ -1,0 +1,35 @@
+{
+  "project": "schoolbooks-launch",
+  "provider": "kokoro",
+  "voice": "af_heart",
+  "fps": 30,
+  "durationInFrames": 690,
+  "scriptOrigin": "Original narration from current CODEIGNITE/ACCOUNTING/schoolbooks source. No prior launch video or reference transcript used.",
+  "segments": [
+    {
+      "startFrame": 9,
+      "endFrame": 117,
+      "text": "Your school has the records. Put them to work.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 137,
+      "endFrame": 300,
+      "text": "Meet Schoolbooks. One workspace for finance and school operations.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 326,
+      "endFrame": 550,
+      "text": "Ask Spark. Let your accounting specialist review the evidence and prepare the next step.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 568,
+      "endFrame": 683,
+      "text": "Your team stays in control. Explore Schoolbooks.",
+      "ttsText": "Your team stays in control. Explore Schoolbooks.",
+      "fitPolicy": "natural-within-window"
+    }
+  ]
+}

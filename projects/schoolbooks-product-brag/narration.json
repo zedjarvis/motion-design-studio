@@ -1,0 +1,28 @@
+{
+  "project": "schoolbooks-product-brag",
+  "provider": "kokoro",
+  "voice": "af_heart",
+  "fps": 30,
+  "durationInFrames": 540,
+  "scriptOrigin": "Original source-backed product narration; no reference transcript. Current user voiceover preference retained.",
+  "segments": [
+    {
+      "startFrame": 9,
+      "endFrame": 138,
+      "text": "Your school has the records. Give them a team.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 156,
+      "endFrame": 360,
+      "text": "Schoolbooks connects finance and school operations, with agents working from your records.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 390,
+      "endFrame": 530,
+      "text": "Review the next step. Keep your team in control.",
+      "fitPolicy": "natural-within-window"
+    }
+  ]
+}

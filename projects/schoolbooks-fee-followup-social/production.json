@@ -1,0 +1,50 @@
+{
+  "project": "schoolbooks-fee-followup-social",
+  "composition": "SchoolbooksFeeFollowupSocial",
+  "kind": "social",
+  "title": "Still chasing overdue fees?",
+  "repository": "$SCHOOLBOOKS_REPO",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationInFrames": 450,
+  "skills": [
+    "motion-p5-brush",
+    "motion-roughjs",
+    "motion-pixijs"
+  ],
+  "posterFrame": 390,
+  "visualReview": "Scene/transition samples and decoded export boards inspected; no clipping or missing assets observed",
+  "listeningReview": "Pending subjective auditory review; generated mix and encoded AAC pass technical checks",
+  "evidence": [
+    {
+      "claim": "AI-native accounting and school operations",
+      "file": "README.md",
+      "lines": [
+        1,
+        5
+      ]
+    },
+    {
+      "claim": "Live records, specialist agents, human control",
+      "file": "apps/marketing/app/pages/index.vue",
+      "lines": [
+        45,
+        61
+      ]
+    },
+    {
+      "claim": "Findings \u2192 Review action \u2192 confirm personal task \u2192 Open follow-up task",
+      "file": "apps/frontend/app/components/agents/AgentAccountingFindings.vue",
+      "lines": [
+        83,
+        123,
+        132,
+        280
+      ]
+    }
+  ],
+  "dataPolicy": "Invoice DEMO-1042, outstanding KES 24,000 and dates are fictional demonstration values. No live financial action is executed.",
+  "painInference": "A recorded overdue invoice may need a personal follow-up; the feature offers findings and source-checked task creation. This is a source-based product scenario, not a claimed user-research finding or measured time saving.",
+  "repoEvidence": "projects/schoolbooks-product-brag/evidence.json"
+}

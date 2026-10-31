@@ -1,0 +1,34 @@
+{
+  "project": "schoolbooks-feature-guide",
+  "provider": "kokoro",
+  "voice": "af_heart",
+  "fps": 30,
+  "durationInFrames": 720,
+  "scriptOrigin": "Original source-backed product narration; no reference transcript. Current user voiceover preference retained.",
+  "segments": [
+    {
+      "startFrame": 6,
+      "endFrame": 140,
+      "text": "Open your accounting specialist, then look at Findings.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 156,
+      "endFrame": 319,
+      "text": "Choose Review action to inspect the proposed follow-up. Check the source before you continue.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 340,
+      "endFrame": 504,
+      "text": "When it looks right, create the follow-up task. Schoolbooks checks the invoice evidence again.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 528,
+      "endFrame": 704,
+      "text": "Open History, then choose Open follow-up task. The invoice record stays unchanged.",
+      "fitPolicy": "natural-within-window"
+    }
+  ]
+}

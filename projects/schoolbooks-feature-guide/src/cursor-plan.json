@@ -1,0 +1,44 @@
+{
+  "windows": [
+    {
+      "from": 162,
+      "to": 195
+    },
+    {
+      "from": 372,
+      "to": 415
+    },
+    {
+      "from": 513,
+      "to": 540
+    },
+    {
+      "from": 597,
+      "to": 665
+    }
+  ],
+  "clicks": [
+    {
+      "frame": 183,
+      "shot": "finding",
+      "target": "review",
+      "endFrame": 195
+    },
+    {
+      "frame": 399,
+      "shot": "review",
+      "target": "confirm",
+      "endFrame": 415
+    },
+    {
+      "frame": 531,
+      "shot": "created",
+      "target": "history",
+      "endFrame": 540
+    }
+  ],
+  "height": 34,
+  "maxTiltDegrees": 5,
+  "glyphs": "Studio-authored vector arrow and pointing hand; official vendor images are research-only.",
+  "linkArrivalFrame": 633
+}

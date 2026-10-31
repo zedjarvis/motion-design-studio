@@ -1,0 +1,54 @@
+{
+  "sourceScriptSha256": "98a1800021acde946dc6116665e2ff9a5fabf31593da6a1638c2192074138e62",
+  "synthesis": "Seeded band-limited noise, shaped envelope, equal-power stereo panning. No reference waveform.",
+  "effects": [
+    {
+      "file": "firstWipe.wav",
+      "seed": 2300,
+      "frames": 37,
+      "pan": [
+        1,
+        -1
+      ],
+      "movementPeakFrame": 303,
+      "assetRmsPeakFrame": 16,
+      "sha256": "30ef2f7bfd6fe3ef7cdef7fe7bec4732685361ab47ef75991c2f2d4054ab2c6a"
+    },
+    {
+      "file": "secondWipe.wav",
+      "seed": 2301,
+      "frames": 37,
+      "pan": [
+        0,
+        0
+      ],
+      "movementPeakFrame": 342,
+      "assetRmsPeakFrame": 17,
+      "sha256": "9f1554cf7bb1a35db1ad09402b9eec951a774d2e87ff0ae6bfeef3deb74fa3ab"
+    },
+    {
+      "file": "thirdWipe.wav",
+      "seed": 2302,
+      "frames": 31,
+      "pan": [
+        -1,
+        1
+      ],
+      "movementPeakFrame": 380,
+      "assetRmsPeakFrame": 10,
+      "sha256": "289f031ac6637ed0abd9e0f31dbf76823ccaef9e67596b8995901479c5851ac9"
+    },
+    {
+      "file": "finalDrop.wav",
+      "seed": 2303,
+      "frames": 27,
+      "pan": [
+        0,
+        0
+      ],
+      "movementPeakFrame": 418,
+      "assetRmsPeakFrame": 12,
+      "sha256": "88d284b3304f029142da98c42cfe674045333564be361a691e36151e1b7cf2c1"
+    }
+  ]
+}

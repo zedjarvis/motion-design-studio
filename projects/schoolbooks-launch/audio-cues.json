@@ -1,0 +1,76 @@
+{
+  "project": "schoolbooks-launch",
+  "fps": 30,
+  "durationInFrames": 690,
+  "voiceover": true,
+  "syncStatus": "Frame-indexed original motion cues; final listening approval pending",
+  "method": "Brag local Kokoro af_heart route, licensed music and gesture-linked SFX. Held music ducking across short narration pauses.",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-10-by-ende-dot-app.mp3",
+    "gain": 0.22,
+    "fadeInFrames": 7,
+    "fadeOutFrames": 33
+  },
+  "cues": [
+    {
+      "frame": 22,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.09,
+      "action": "Fee record lands"
+    },
+    {
+      "frame": 39,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.08,
+      "action": "Payroll record lands"
+    },
+    {
+      "frame": 56,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.08,
+      "action": "Operations record lands"
+    },
+    {
+      "frame": 128,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.14,
+      "action": "Full product workspace reveal"
+    },
+    {
+      "frame": 244,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.14,
+      "action": "Cursor taps Show my priorities"
+    },
+    {
+      "frame": 323,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.1,
+      "action": "Specialist review panel enters"
+    },
+    {
+      "frame": 420,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.14,
+      "action": "Review action click"
+    },
+    {
+      "frame": 435,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.1,
+      "action": "Follow-up task preview opens"
+    },
+    {
+      "frame": 566,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.12,
+      "action": "Final mint panel wipe"
+    },
+    {
+      "frame": 606,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.12,
+      "action": "Agents prepare / You decide settles near 20.19s strong beat"
+    }
+  ]
+}

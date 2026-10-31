@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Schoolbooks · Studio films</title><style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#09090a;color:#edf3ef}body{margin:0;padding:48px;max-width:1480px;margin:auto}h1{font-size:clamp(36px,5vw,64px);letter-spacing:-.05em;margin:16px 0}p{color:#a6b9ad;line-height:1.6}a{color:#72d9be}header{margin-bottom:42px}.films{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}article{border-top:1px solid #304135;padding-top:16px}article:last-child{grid-column:1/-1;max-width:520px}h2{font-size:25px;margin:12px 0}video{width:100%;max-height:75vh;background:#14221b;border-radius:8px}nav{display:flex;gap:24px;padding:16px 0}.tag{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#72d9be}@media(max-width:800px){body{padding:24px}.films{grid-template-columns:1fr}}
+</style><header><span class="tag">Motion Design Studio / Schoolbooks</span><h1>Three ways to tell the story.</h1><p>Product launch, feature walkthrough and a portrait social film. Original scripts, generated narration, licensed music and sound effects.</p></header><main class="films" id="films"></main><script type="module">
+const report=await fetch('/api').then(r=>{if(!r.ok)throw Error('Run npm run test:productions first');return r.json()});
+const labels={launch:'01 / Product launch',guide:'02 / Feature guide',social:'03 / Social pain point'};
+for(const item of report.cases){const media=kind=>`/media?project=${encodeURIComponent(item.project)}&kind=${kind}`;
+const article=document.createElement('article');article.dataset.project=item.project;
+const tag=document.createElement('span');tag.className='tag';tag.textContent=`${labels[item.kind]} · ${item.seconds}s · ${item.width} × ${item.height}`;
+const title=document.createElement('h2');title.textContent=item.title;
+const video=document.createElement('video');video.controls=true;video.playsInline=true;video.preload='metadata';video.poster=media('poster');video.src=media('video');
+const track=document.createElement('track');track.kind='captions';track.label='English';track.srclang='en';track.src=media('captions');video.append(track);
+const nav=document.createElement('nav');for(const [label,kind] of [['Download MP4','video'],['Transcript','captions'],['Credits','credits']]){const link=document.createElement('a');link.href=media(kind);link.textContent=label;link.download=`${item.project}.${kind==='video'?'mp4':kind==='captions'?'vtt':'txt'}`;nav.append(link);}
+article.append(tag,title,video,nav);document.querySelector('#films').append(article);}
+</script></html>

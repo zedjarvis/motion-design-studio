@@ -1,0 +1,103 @@
+{
+  "project": "creators-studio",
+  "fps": 48.0,
+  "durationInFrames": 522,
+  "syncStatus": "aligned-to-current-authored-actions; final-picture-and-listening-review-pending",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-9-by-ende-dot-app.mp3",
+    "gain": 0.24,
+    "fadeInFrames": 6,
+    "fadeOutFrames": 30
+  },
+  "cues": [
+    {
+      "frame": 10,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.12,
+      "action": "Camera arrival"
+    },
+    {
+      "frame": 48,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.09,
+      "action": "Body tumble settles"
+    },
+    {
+      "frame": 64,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.12,
+      "action": "Lens detaches"
+    },
+    {
+      "frame": 100,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.15,
+      "action": "Lens attachment / searchlight begins"
+    },
+    {
+      "frame": 287,
+      "src": "creators-studio/sfx/firstWipe.wav",
+      "gain": 0.24,
+      "action": "firstWipe stereo swish",
+      "anchorFrame": 303,
+      "assetPeakFrame": 16
+    },
+    {
+      "frame": 303,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.14,
+      "action": "firstWipe movement accent"
+    },
+    {
+      "frame": 325,
+      "src": "creators-studio/sfx/secondWipe.wav",
+      "gain": 0.24,
+      "action": "secondWipe stereo swish",
+      "anchorFrame": 342,
+      "assetPeakFrame": 17
+    },
+    {
+      "frame": 342,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.14,
+      "action": "secondWipe movement accent"
+    },
+    {
+      "frame": 370,
+      "src": "creators-studio/sfx/thirdWipe.wav",
+      "gain": 0.24,
+      "action": "thirdWipe stereo swish",
+      "anchorFrame": 380,
+      "assetPeakFrame": 10
+    },
+    {
+      "frame": 380,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.14,
+      "action": "thirdWipe movement accent"
+    },
+    {
+      "frame": 406,
+      "src": "creators-studio/sfx/finalDrop.wav",
+      "gain": 0.24,
+      "action": "finalDrop stereo swish",
+      "anchorFrame": 418,
+      "assetPeakFrame": 12
+    },
+    {
+      "frame": 418,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.14,
+      "action": "finalDrop movement accent"
+    },
+    {
+      "frame": 432,
+      "src": "audio/sfx/impact/impactBell_heavy_000.ogg",
+      "gain": 0.09,
+      "action": "Final lockup settles"
+    }
+  ],
+  "voiceover": false,
+  "method": "Licensed rhythmic Brag music bed, custom stereo swishes with RMS peaks on measured panel-speed peaks, and restrained Kenney clicks/impacts. No narration or reference audio.",
+  "narrationPolicy": "User confirmed music/SFX-only after low-confidence ASR result; no narration."
+}

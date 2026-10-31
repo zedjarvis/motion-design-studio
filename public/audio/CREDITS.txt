@@ -1,0 +1,7 @@
+Music: Sascha Ende, ende.app (CC BY 4.0)
+Source: https://ende.app/en — Happy Beats / Business Moves, Vol. 9, 10 and 12
+License: https://creativecommons.org/licenses/by/4.0/
+Sound effects: Kenney.nl (CC0)
+Source: https://kenney.nl/
+Audio files copied from the installed Brag 0.5.0 skill.
+Edits: excerpting, volume, fades, layering and loudness normalization.

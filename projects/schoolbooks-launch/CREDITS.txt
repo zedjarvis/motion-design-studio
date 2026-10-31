@@ -1,0 +1,10 @@
+Schoolbooks launch — 23-second original product film
+
+Product identity and UI: user-provided Schoolbooks repository under CODEIGNITE/ACCOUNTING/schoolbooks. Actual local Demo School capture; fictional values in the authored specialist demonstration.
+
+Music: Happy Beats / Business Moves Vol. 10 by Sascha Ende, https://ende.app/en — licensed under Creative Commons Attribution 4.0, https://creativecommons.org/licenses/by/4.0/. Mixed, faded and ducked for narration.
+Sound effects: Kenney.nl, https://kenney.nl/ — CC0. Retimed and mixed.
+Narration: AI-generated locally with Kokoro-82M v1.0, stock af_heart voice, via Hyperframes 0.8.198. Original product script; no voice cloning.
+Inter and Manrope: SIL Open Font License 1.1; original font license files retained in the project’s assets folder.
+
+Keep the music attribution with any public upload or share.

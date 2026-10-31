@@ -1,0 +1,84 @@
+{
+  "project": "schoolbooks-feature-guide",
+  "composition": "SchoolbooksFeatureGuide",
+  "kind": "guide",
+  "title": "Turn a finding into a follow-up task",
+  "repository": "$SCHOOLBOOKS_REPO",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationInFrames": 720,
+  "skills": [
+    "motion-p5",
+    "motion-roughjs",
+    "motion-animejs",
+    "motion-cursors"
+  ],
+  "posterFrame": 570,
+  "visualReview": "Actual UI and adjacent-click captures inspected; decoded cursor crops inspected at native and half size; five native UI states pass exact RGB checks",
+  "listeningReview": "Pending subjective auditory review; generated mix and encoded AAC pass technical checks",
+  "evidence": [
+    {
+      "claim": "AI-native accounting and school operations",
+      "file": "README.md",
+      "lines": [
+        1,
+        5
+      ]
+    },
+    {
+      "claim": "Live records, specialist agents, human control",
+      "file": "apps/marketing/app/pages/index.vue",
+      "lines": [
+        45,
+        61
+      ]
+    },
+    {
+      "claim": "Actual UI: Findings \u2192 Review action \u2192 Create follow-up task \u2192 History \u2192 Open follow-up task",
+      "file": "apps/frontend/app/components/agents/AgentAccountingFindings.vue",
+      "lines": [
+        83,
+        123,
+        132,
+        280
+      ]
+    }
+  ],
+  "dataPolicy": "Invoice DEMO-1042, outstanding KES 24,000 and dates are fictional demonstration values. No live financial action is executed.",
+  "painInference": "A recorded overdue invoice may need a personal follow-up; the feature offers findings and source-checked task creation. This is a source-based product scenario, not a claimed user-research finding or measured time saving.",
+  "repoEvidence": "projects/schoolbooks-product-brag/evidence.json",
+  "uiEvidence": {
+    "mode": "actual-product-capture",
+    "manifest": "projects/schoolbooks-feature-guide/assets/native-ui/PROVENANCE.json",
+    "placement": {
+      "left": 160,
+      "top": 108,
+      "width": 1600,
+      "height": 900
+    },
+    "checks": [
+      {
+        "frame": 30,
+        "shot": "overview"
+      },
+      {
+        "frame": 120,
+        "shot": "finding"
+      },
+      {
+        "frame": 270,
+        "shot": "review"
+      },
+      {
+        "frame": 450,
+        "shot": "created"
+      },
+      {
+        "frame": 570,
+        "shot": "history"
+      }
+    ]
+  },
+  "cursorPlan": "projects/schoolbooks-feature-guide/src/cursor-plan.json"
+}

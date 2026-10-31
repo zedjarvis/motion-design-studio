@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "project": "schoolbooks-product-brag",
+      "composition": "SchoolbooksProductBrag",
+      "kind": "launch"
+    },
+    {
+      "project": "schoolbooks-feature-guide",
+      "composition": "SchoolbooksFeatureGuide",
+      "kind": "guide"
+    },
+    {
+      "project": "schoolbooks-fee-followup-social",
+      "composition": "SchoolbooksFeeFollowupSocial",
+      "kind": "social"
+    }
+  ]
+}

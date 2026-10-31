@@ -1,0 +1,34 @@
+{
+  "project": "haft-studio-launch",
+  "fps": 30,
+  "durationInFrames": 450,
+  "voiceover": true,
+  "syncStatus": "Original authored phrase windows; final listening review pending",
+  "method": "Original repo-evidence script, Brag local Kokoro af_heart narration, licensed music/SFX and music-only ducking.",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3",
+    "gain": 0.17,
+    "fadeInFrames": 10,
+    "fadeOutFrames": 35
+  },
+  "cues": [
+    {
+      "frame": 105,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.08,
+      "action": "Material panel wipe"
+    },
+    {
+      "frame": 195,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.08,
+      "action": "Collection reveal"
+    },
+    {
+      "frame": 330,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.08,
+      "action": "Closing panel wipe"
+    }
+  ]
+}

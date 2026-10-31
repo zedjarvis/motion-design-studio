@@ -1,0 +1,36 @@
+{
+  "repository": "$SCHOOLBOOKS_REPO",
+  "assets": [
+    {
+      "file": "brand-mark.svg",
+      "source": "./projects/schoolbooks-launch/assets/brand-mark.svg",
+      "originalProvenance": "projects/schoolbooks-launch/assets/PROVENANCE.json",
+      "sha256": "ccb46447507d3c1241d729a673b01267ae194d9681edf83e96358c3cdadaf18d"
+    },
+    {
+      "file": "Manrope.woff2",
+      "source": "./projects/schoolbooks-launch/assets/Manrope.woff2",
+      "originalProvenance": "projects/schoolbooks-launch/assets/PROVENANCE.json",
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+    },
+    {
+      "file": "Manrope-OFL.txt",
+      "source": "./projects/schoolbooks-launch/assets/Manrope-OFL.txt",
+      "originalProvenance": "projects/schoolbooks-launch/assets/PROVENANCE.json",
+      "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30"
+    },
+    {
+      "file": "brand-48.png",
+      "source": "brand-mark.svg",
+      "derivation": "Official product SVG rasterized at its exact native display size 48 \u00d7 48 via FFmpeg librsvg; no artwork edits",
+      "sha256": "a26786baa668ad3991c52198cff6653f6636bee984360ea028ccdd89c41bda58"
+    },
+    {
+      "file": "workspace-1280.png",
+      "source": "$SCHOOLBOOKS_REPO/apps/marketing/public/product-film/workspace-current-v1.jpg",
+      "derivation": "Existing actual Demo School UI capture prepared at native film display size",
+      "sha256": "ce03c29a1a8a19803934c161b4b3f74698e2b496112e41d8f18b89f32cc7bd0b"
+    }
+  ],
+  "note": "Product repo read only. Shared techniques are authored code; fictional invoice values are marked as demo data."
+}

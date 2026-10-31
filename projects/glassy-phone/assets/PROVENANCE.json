@@ -1,0 +1,21 @@
+{
+  "recovered-landscape.jpg": {
+    "source": "Supplied Twobase reference, decoded frame 144",
+    "region": {
+      "x": 125,
+      "y": 422,
+      "width": 638,
+      "height": 1248
+    },
+    "recovery": "Photographic texture only; camera grid and controls masked and locally inpainted. This is an approximate static asset recovery, not a reference-frame sequence.",
+    "limitation": "Original image and occluded pixels are unavailable. Recovered regions cannot establish exact parity.",
+    "rights": "Source image rights remain with its original owner; no stock license is asserted.",
+    "sha256": "adbdb5f1caf5a1ff3404b9a6ecc45f2a2ae2df5efcdf23400c08e456d59b539e"
+  },
+  "twobase-logo.png": {
+    "source": "https://cdn.prod.website-files.com/68adc7c3880a2b5e1a28ef18/696617ae5ef4c35af8f5605e_Logo_600x600.png",
+    "sha256": "3aaf1c16f0e4533478c7b7cbb25aed48dfc5fbd11d92ce2e8abd5a279ef5534b",
+    "rights": "Twobase brand artwork; owner rights retained",
+    "limitation": "Current official logo; may differ from the revision in the reference"
+  }
+}

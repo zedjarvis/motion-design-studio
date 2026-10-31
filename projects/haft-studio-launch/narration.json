@@ -1,0 +1,35 @@
+{
+  "project": "haft-studio-launch",
+  "provider": "kokoro",
+  "voice": "af_heart",
+  "fps": 30,
+  "durationInFrames": 450,
+  "scriptOrigin": "Original copy written from the Haft Studio repository, not a reference video or transcript. See SPEC.md source evidence.",
+  "timingPolicy": "Natural voice delivery inside authored scene windows. No forced slowing or stretched silent tails.",
+  "segments": [
+    {
+      "startFrame": 6,
+      "endFrame": 98,
+      "text": "Some spaces stay with you.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 110,
+      "endFrame": 190,
+      "text": "Rooted in African materials. Shaped in Nairobi.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 205,
+      "endFrame": 319,
+      "text": "Considered furniture for living, working, and gathering.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 340,
+      "endFrame": 444,
+      "text": "Make room for something lasting. Explore Haft Studio.",
+      "fitPolicy": "natural-within-window"
+    }
+  ]
+}

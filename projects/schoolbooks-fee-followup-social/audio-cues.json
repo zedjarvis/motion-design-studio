@@ -1,0 +1,39 @@
+{
+  "project": "schoolbooks-fee-followup-social",
+  "fps": 30,
+  "durationInFrames": 450,
+  "voiceover": true,
+  "syncStatus": "Frame-indexed authored cues; final listening review separate",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-9-by-ende-dot-app.mp3",
+    "gain": 0.2,
+    "fadeInFrames": 6,
+    "fadeOutFrames": 30
+  },
+  "cues": [
+    {
+      "frame": 36,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.11,
+      "action": "Painted question underline"
+    },
+    {
+      "frame": 150,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.11,
+      "action": "From pain to task"
+    },
+    {
+      "frame": 218,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.11,
+      "action": "Personal follow-up card"
+    },
+    {
+      "frame": 330,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.11,
+      "action": "Closing CTA"
+    }
+  ]
+}

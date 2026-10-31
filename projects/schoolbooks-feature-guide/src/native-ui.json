@@ -1,0 +1,98 @@
+{
+  "viewport": {
+    "width": 1600,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "shots": [
+    {
+      "name": "overview",
+      "file": "overview.png",
+      "targets": {}
+    },
+    {
+      "name": "finding",
+      "file": "finding.png",
+      "targets": {
+        "review": {
+          "x": 455,
+          "y": 589.46875,
+          "width": 107.75,
+          "height": 28
+        },
+        "history": {
+          "x": 570.078125,
+          "y": 453.515625,
+          "width": 66.265625,
+          "height": 36
+        },
+        "panel": {
+          "x": 425,
+          "y": 384.546875,
+          "width": 798,
+          "height": 290.90625
+        }
+      }
+    },
+    {
+      "name": "review",
+      "file": "review.png",
+      "targets": {
+        "confirm": {
+          "x": 905.265625,
+          "y": 538.9453125,
+          "width": 157.734375,
+          "height": 32
+        },
+        "dialog": {
+          "x": 512,
+          "y": 304.0546875,
+          "width": 576,
+          "height": 291.890625
+        }
+      }
+    },
+    {
+      "name": "created",
+      "file": "created.png",
+      "targets": {
+        "history": {
+          "x": 570.078125,
+          "y": 543.515625,
+          "width": 66.265625,
+          "height": 36
+        },
+        "panel": {
+          "x": 425,
+          "y": 474.546875,
+          "width": 798,
+          "height": 200.9375
+        }
+      }
+    },
+    {
+      "name": "history",
+      "file": "history.png",
+      "targets": {
+        "open": {
+          "x": 455,
+          "y": 601.46875,
+          "width": 116.125,
+          "height": 15
+        },
+        "history": {
+          "x": 570.078125,
+          "y": 465.515625,
+          "width": 66.265625,
+          "height": 36
+        },
+        "panel": {
+          "x": 425,
+          "y": 396.546875,
+          "width": 798,
+          "height": 278.890625
+        }
+      }
+    }
+  ]
+}

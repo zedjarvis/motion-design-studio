@@ -1,0 +1,69 @@
+{
+  "name": "motion-design-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "studio": "remotion studio studio/index.ts --port 3210",
+    "typecheck": "tsc --noEmit",
+    "render": "node scripts/render.mjs",
+    "inspect": "python3 scripts/references.py",
+    "compare": "python3 scripts/compare.py",
+    "audit:motion": "python3 scripts/audit-motion.py",
+    "parity": "python3 scripts/parity-suite.py references/candidates.json",
+    "extract:frames": "python3 scripts/extract-frames.py",
+    "audio": "python3 scripts/audio.py",
+    "voice": "python3 scripts/voiceover.py",
+    "mux:audio": "node scripts/mux-audio.mjs",
+    "test": "python3 -m unittest discover -s tests -p '*_test.py' -v",
+    "inspect:repo": "node scripts/inspect-repo.mjs",
+    "review": "node scripts/review.mjs",
+    "build:art": "node scripts/build-art.mjs",
+    "test:capabilities": "node tests/capabilities.mjs",
+    "test:productions": "node scripts/verify-productions.mjs",
+    "productions": "node scripts/productions.mjs",
+    "test:playback": "node tests/production-playback.mjs",
+    "capture:guide": "node scripts/capture-schoolbooks-guide.mjs",
+    "test:native-ui": "node tests/native-ui.mjs",
+    "test:cursors": "node tests/cursors.mjs",
+    "test:unit": "node --test --test-isolation=none tests/studio.test.mjs tests/native-ui.mjs",
+    "test:coverage": "node --test --test-isolation=none --experimental-test-coverage --test-coverage-lines=90 --test-coverage-branches=90 --test-coverage-functions=95 --test-coverage-include='scripts/local-config.mjs' --test-coverage-include='scripts/render-inputs.mjs' --test-coverage-include='scripts/release-audit.mjs' --test-coverage-include='scripts/verify-native-ui.mjs' --test-coverage-include='studio/cursor/motion.ts' tests/studio.test.mjs tests/native-ui.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "audit:release": "node scripts/release-audit.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.535",
+    "@remotion/cli": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/renderer": "4.0.535",
+    "animejs": "4.5.0",
+    "p5": "2.3.4",
+    "p5.brush": "3.0.0",
+    "pixi.js": "8.22.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.535",
+    "roughjs": "4.6.6",
+    "thinking-orbs": "0.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/react": "19.3.0",
+    "playwright": "1.62.1",
+    "typescript": "5.9.3"
+  },
+  "description": "Editable Remotion motion studio with deterministic capture, product guides, reusable skills and strict frame verification.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedjarvis/motion-design-studio.git"
+  },
+  "homepage": "https://github.com/zedjarvis/motion-design-studio#readme",
+  "bugs": {
+    "url": "https://github.com/zedjarvis/motion-design-studio/issues"
+  }
+}

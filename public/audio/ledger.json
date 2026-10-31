@@ -1,0 +1,108 @@
+{
+  "assets": [
+    {
+      "path": "audio/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3",
+      "sha256": "5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Sascha Ende",
+      "sourceUrl": "https://ende.app/en",
+      "license": "CC BY 4.0",
+      "credit": "Music: Sascha Ende, ende.app (CC BY 4.0)"
+    },
+    {
+      "path": "audio/music/happy-beats-business-moves-vol-10-by-ende-dot-app.mp3",
+      "sha256": "f9912f2c962ada1e579f5ccc5a7d854d67e5e81ee96a7dd8c885a8480ae58d09",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Sascha Ende",
+      "sourceUrl": "https://ende.app/en",
+      "license": "CC BY 4.0",
+      "credit": "Music: Sascha Ende, ende.app (CC BY 4.0)"
+    },
+    {
+      "path": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "sha256": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Kenney",
+      "sourceUrl": "https://kenney.nl/",
+      "license": "CC0",
+      "credit": "Sound effects: Kenney.nl (CC0)"
+    },
+    {
+      "path": "audio/sfx/impact/impactBell_heavy_000.ogg",
+      "sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Kenney",
+      "sourceUrl": "https://kenney.nl/",
+      "license": "CC0",
+      "credit": "Sound effects: Kenney.nl (CC0)"
+    },
+    {
+      "path": "audio/sfx/interface/click_003.ogg",
+      "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Kenney",
+      "sourceUrl": "https://kenney.nl/",
+      "license": "CC0",
+      "credit": "Sound effects: Kenney.nl (CC0)"
+    },
+    {
+      "path": "audio/sfx/interface/drop_001.ogg",
+      "sha256": "692ee3a6f1821402ca649ff735bee9591dc4846c8098fc7d6a90fd15fa57c1af",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Kenney",
+      "sourceUrl": "https://kenney.nl/",
+      "license": "CC0",
+      "credit": "Sound effects: Kenney.nl (CC0)"
+    },
+    {
+      "path": "audio/sfx/casino/card-slide-1.ogg",
+      "sha256": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Kenney",
+      "sourceUrl": "https://kenney.nl/",
+      "license": "CC0",
+      "credit": "Sound effects: Kenney.nl (CC0)"
+    },
+    {
+      "path": "audio/music/happy-beats-business-moves-vol-9-by-ende-dot-app.mp3",
+      "sha256": "f5793597e520aa8fa9cce91086816fc1e15e3aac0128bcf375df51ba70c0dc63",
+      "source": "Brag 0.5.0 bundled library",
+      "creator": "Sascha Ende",
+      "sourceUrl": "https://ende.app/en",
+      "license": "CC BY 4.0",
+      "credit": "Music: Sascha Ende, ende.app (CC BY 4.0)"
+    },
+    {
+      "path": "creators-studio/sfx/firstWipe.wav",
+      "sha256": "30ef2f7bfd6fe3ef7cdef7fe7bec4732685361ab47ef75991c2f2d4054ab2c6a",
+      "source": "Authored procedural synthesis: projects/creators-studio/build-sound.py",
+      "creator": "Motion Design Studio",
+      "license": "Studio-authored synthesis; no external audio samples",
+      "credit": "Transition swishes: authored in Motion Design Studio"
+    },
+    {
+      "path": "creators-studio/sfx/secondWipe.wav",
+      "sha256": "9f1554cf7bb1a35db1ad09402b9eec951a774d2e87ff0ae6bfeef3deb74fa3ab",
+      "source": "Authored procedural synthesis: projects/creators-studio/build-sound.py",
+      "creator": "Motion Design Studio",
+      "license": "Studio-authored synthesis; no external audio samples",
+      "credit": "Transition swishes: authored in Motion Design Studio"
+    },
+    {
+      "path": "creators-studio/sfx/thirdWipe.wav",
+      "sha256": "289f031ac6637ed0abd9e0f31dbf76823ccaef9e67596b8995901479c5851ac9",
+      "source": "Authored procedural synthesis: projects/creators-studio/build-sound.py",
+      "creator": "Motion Design Studio",
+      "license": "Studio-authored synthesis; no external audio samples",
+      "credit": "Transition swishes: authored in Motion Design Studio"
+    },
+    {
+      "path": "creators-studio/sfx/finalDrop.wav",
+      "sha256": "88d284b3304f029142da98c42cfe674045333564be361a691e36151e1b7cf2c1",
+      "source": "Authored procedural synthesis: projects/creators-studio/build-sound.py",
+      "creator": "Motion Design Studio",
+      "license": "Studio-authored synthesis; no external audio samples",
+      "credit": "Transition swishes: authored in Motion Design Studio"
+    }
+  ]
+}

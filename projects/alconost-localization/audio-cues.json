@@ -1,0 +1,64 @@
+{
+  "project": "alconost-localization",
+  "fps": 25.0,
+  "durationInFrames": 490,
+  "syncStatus": "fitted to reference ASR phrase bounds; final listening review pending",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-10-by-ende-dot-app.mp3",
+    "gain": 0.22,
+    "fadeInFrames": 3,
+    "fadeOutFrames": 18
+  },
+  "cues": [
+    {
+      "frame": 125,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.18,
+      "action": "Continuous sync reveal"
+    },
+    {
+      "frame": 147,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.165,
+      "action": "Spanish language"
+    },
+    {
+      "frame": 169,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.15,
+      "action": "German language"
+    },
+    {
+      "frame": 238,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.18,
+      "action": "Global in one week reveal"
+    },
+    {
+      "frame": 250,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.18,
+      "action": "First checklist item"
+    },
+    {
+      "frame": 282,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.18,
+      "action": "Second checklist item"
+    },
+    {
+      "frame": 308,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.18,
+      "action": "Third checklist item"
+    },
+    {
+      "frame": 388,
+      "src": "audio/sfx/impact/impactBell_heavy_000.ogg",
+      "gain": 0.12,
+      "action": "CTA reveal"
+    }
+  ],
+  "voiceover": true,
+  "method": "Brag --voice: local Kokoro af_heart narration plus licensed Sascha Ende music and Kenney SFX. Music ducks to 0.13 beneath speech."
+}

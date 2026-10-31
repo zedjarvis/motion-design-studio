@@ -1,0 +1,68 @@
+{
+  "referenceMediaUsed": false,
+  "assets": [
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/1.webp",
+      "sha256": "507683d862433351e95e20c8c8aef9c349cbaa5492d901ecce8ddce0f36a2331",
+      "localFile": "1.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/6.webp",
+      "sha256": "e0a7525fc0f34625d344a00b0f1bd9232dfa606b98e1f044fc18b5337ad534bb",
+      "localFile": "6.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/pexels-maria-1.webp",
+      "sha256": "218bb660bd8122debecbbddf8dd090f6c7aba632d5af595e3651b4f31165fb78",
+      "localFile": "pexels-maria-1.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/neva_chair_cover.webp",
+      "sha256": "dda712a1624137c8b0370ba4acbccde154e7eefdc9a8f5aa1e75bb0bcaecf75b",
+      "localFile": "neva_chair_cover.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/neva_lounge_trimmed_cover.webp",
+      "sha256": "2bee6bfe5c770e0c9ba07c59132077c5bbc4ba4c2780ad10e9fb61db638e1703",
+      "localFile": "neva_lounge_trimmed_cover.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/invito_table_cover.webp",
+      "sha256": "66be1a17a8376b3c23fd4d549eb3ae952b50bd15c510da2cd0615e1ad68565b0",
+      "localFile": "invito_table_cover.webp",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "src/assets/images/logo.png",
+      "sha256": "5b40dfeece26d4a51a53e53a9db08cc5d9ba65cae3980cebae164dacece3ebf4",
+      "localFile": "logo.png",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "public/fonts/Pacifico/Pacifico-Regular.ttf",
+      "sha256": "4dac9db3fa9ca072f7861fd916bf04bdceac6069d0f3a886f5e523d922e918f1",
+      "localFile": "Pacifico-Regular.ttf",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    },
+    {
+      "sourceRepo": "../haftstudio-website",
+      "sourcePath": "public/fonts/Pacifico/OFL.txt",
+      "sha256": "a49d580230ff56e47b196de67c3e316fbdca7367bc4a06be18b9392a8d207b25",
+      "localFile": "OFL.txt",
+      "rights": "Existing project asset; original artwork/photography rights remain with their owners. Pacifico is SIL OFL 1.1, included."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "acceptance": "exact-decoded-rgb-per-frame",
+  "audio": "Rebuilt sound is reviewed separately; original waveform equality is not required.",
+  "references": [
+    {
+      "id": "alconost-localization",
+      "composition": "AlconostLocalization",
+      "source": "Alconost \u2014 Software Localization \u00b7 Vertical - Alexander Murauski (1080p, h264).mp4",
+      "crop": null,
+      "status": "authored-draft-not-parity-approved",
+      "audioPolicy": "new-sound-design",
+      "notes": "Full visible artwork; native source assets are not supplied.",
+      "sha256": "558320b896fe244d82cc5c9eabc40cd418287692d2e8befa9057d28c522c36a2"
+    },
+    {
+      "id": "minimalist-priceless",
+      "composition": "MinimalistPriceless",
+      "source": "Minimalist Motion Graphics - 1 - Parto Motion (1080p, h264).mp4",
+      "crop": null,
+      "status": "authored-draft-not-parity-approved",
+      "audioPolicy": "new-sound-design",
+      "notes": "Full visible artwork; native source assets are not supplied.",
+      "sha256": "634e56e995d33477888ffeaf54f1c022fbb3021cae7283ca82da5e6619d7f452"
+    },
+    {
+      "id": "creators-studio",
+      "composition": "CreatorsStudio",
+      "source": "Recreating a Motion Graphic Scene in Alight Motion (Original vs Remake) - Akshansh Ojha (720p, h264).mp4",
+      "crop": {
+        "x": 80,
+        "y": 318,
+        "width": 556,
+        "height": 314
+      },
+      "status": "authored-draft-not-parity-approved",
+      "audioPolicy": "new-sound-design",
+      "notes": "Upper Original artwork panel only; native uncropped artwork is not supplied. Panel corner pixels retain the download wrapper.",
+      "sha256": "42342d4976252b84b2f918d5432e06dfde943df71922b878d9b1e79da3d160ee"
+    },
+    {
+      "id": "glassy-phone",
+      "composition": "GlassyPhone",
+      "source": "Clean Glassy Phone UI Motion Graphic in DaVinci Resolve Fusion  #motiongraphics  #davinciresolve - Twobase (1080p, h264).mp4",
+      "crop": null,
+      "status": "authored-draft-not-parity-approved",
+      "audioPolicy": "new-sound-design",
+      "notes": "Full visible artwork; native source assets are not supplied.",
+      "sha256": "681f892591b2a4ed9e39b10af0ee15232530427d8af82003c51927918dc5c106"
+    }
+  ]
+}

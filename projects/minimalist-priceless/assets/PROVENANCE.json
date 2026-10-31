@@ -1,0 +1,15 @@
+{
+  "land": {
+    "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson",
+    "license": "Natural Earth public domain",
+    "transformation": "Outer and inner geographic rings reduced to longitude/latitude arrays; no reference image is used."
+  },
+  "signature-authored.png": {
+    "origin": "Our authored SVG signature, captured by this engine, then cropped to its static 445\u00d7116 bounds. No reference frame pixels.",
+    "authoredCapture": "out/MinimalistPriceless/capture-rM5ofW/frames/element-120.png",
+    "captureSha256": "e7d21c07321ed0fb263451512e5737ce5aa6d56a55180a35e3cdef07c242fde4",
+    "sha256": "881deea7e26fd157be84fba5a1d726ad0fa6df0ac98faba2e9e676a5a502c8d9",
+    "reason": "Freeze our own static vector layer after its entrance to avoid history-dependent one-value SVG edge rasterization. Keep editable SVG for the entrance.",
+    "regeneration": "Render MinimalistPriceless with the SVG signature visible at frame 60; crop x0,y0,w445,h116. Regenerate this authored asset after editing signature geometry."
+  }
+}

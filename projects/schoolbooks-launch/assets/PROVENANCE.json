@@ -1,0 +1,84 @@
+{
+  "repository": "$SCHOOLBOOKS_REPO",
+  "commit": "6b90d18",
+  "workingTree": "Existing user modifications preserved. Static inspection only; product repo is not modified.",
+  "assets": [
+    {
+      "file": "workspace.jpg",
+      "source": "$SCHOOLBOOKS_REPO/apps/marketing/public/product-film/workspace-current-v1.jpg",
+      "sha256": "98a42c92be958da5bf62e62ad49c6cb8160e2dc6997707b495491b5dbbf76b92",
+      "usage": "Real Demo School application UI capture",
+      "license": "User project asset, used for requested product film"
+    },
+    {
+      "file": "brand-mark.svg",
+      "source": "$SCHOOLBOOKS_REPO/packages/ui/public/brand/schoolbooks-mark.svg",
+      "sha256": "ccb46447507d3c1241d729a673b01267ae194d9681edf83e96358c3cdadaf18d",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "User project asset, used for requested product film"
+    },
+    {
+      "file": "spark.webp",
+      "source": "$SCHOOLBOOKS_REPO/packages/ui/public/brand/schoolbooks-ai-spark-luminous.webp",
+      "sha256": "4a001c79499239e5332dcb951924c6bc8a53e9b2f448c3d311ca757b20768142",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "User project asset, used for requested product film"
+    },
+    {
+      "file": "accounting-agent.webp",
+      "source": "$SCHOOLBOOKS_REPO/packages/ui/public/brand/agents/schoolbooks-accounting-56e9f748525e.webp",
+      "sha256": "56e9f748525ef3ee1dfe1f9ca44a37d5a1e257c13704aed36f1ab00415a2a35d",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "User project asset, used for requested product film"
+    },
+    {
+      "file": "Inter.woff2",
+      "source": "$SCHOOLBOOKS_REPO/apps/marketing/node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "Manrope.woff2",
+      "source": "$SCHOOLBOOKS_REPO/packages/ui/node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2",
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "Inter-OFL.txt",
+      "source": "$SCHOOLBOOKS_REPO/apps/marketing/node_modules/@fontsource-variable/inter/LICENSE",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "Manrope-OFL.txt",
+      "source": "$SCHOOLBOOKS_REPO/packages/ui/node_modules/@fontsource-variable/manrope/LICENSE",
+      "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30",
+      "usage": "Existing product brand asset / local OFL font",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "file": "brand-mark.png",
+      "source": "brand-mark.svg from the product repo",
+      "derivation": "FFmpeg librsvg rasterizer, native SVG rendering at 1060 \u00d7 1060; no source artwork changes. Prevents history-dependent SVG raster resolution during animated scaling.",
+      "command": "ffmpeg -v error -width 1060 -height 1060 -i assets/brand-mark.svg -frames:v 1 -y assets/brand-mark.png",
+      "sha256": "0791c4a426ec4a3d334f61856363403b2b88291a3747a007eebad70a160ed304"
+    },
+    {
+      "file": "brand-lockup.png",
+      "source": "out/SchoolbooksLaunch/capture-iuC1BB/frames/element-689.png",
+      "sourceSha256": "38e97aa378ea7355a342a434989be13e14c4963aae9a3173bc4b651793940a03",
+      "sha256": "6fcc7225ba54aed75efe4515c5470d609da1cde3cb3d8368604bf225d60554fa",
+      "derivation": "512 \u00d7 512 crop at [1316,194] from this studio\u2019s authored closing scene, native frame 689, including the flat paper background, settled rotation and shadow. It derives from the product SVG via our own code; no reference video/frame is used. Displayed at native pixel size only after the entrance settles.",
+      "recipe": "Pillow Image.open(source).crop((1316,194,1828,706)).convert(\"RGB\").save(output)"
+    },
+    {
+      "file": "spark-52.png",
+      "source": "spark.webp from the Schoolbooks repo",
+      "sha256": "bb2f593c25c922ccd896ccc1ee353d63d481b988d8b52dd47183b5496b9df76c",
+      "derivation": "Pillow RGBA Lanczos resize from 256 \u00d7 256 to native display size 52 \u00d7 52; no runtime image resampling."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Artwork review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#141414;color:#eee;font:15px system-ui}main{max-width:1440px;margin:auto;padding:24px}header{display:flex;gap:16px;align-items:center;flex-wrap:wrap}h1{font-size:22px;margin:0 auto 0 0}select,button{font:inherit;color:inherit;background:#292929;border:1px solid #555;border-radius:5px;padding:9px}button{cursor:pointer}button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #80bfff}#status{color:#ffb5a9;margin:16px 0}.screens{display:flex;gap:18px;justify-content:center;align-items:start;height:70vh}.screens figure{margin:0;display:flex;flex-direction:column;align-items:center;height:100%;flex:1;min-width:0}figcaption{margin-bottom:10px;color:#bbb}canvas{max-height:calc(100% - 30px);max-width:100%;object-fit:contain;background:#000}.controls{display:flex;align-items:center;gap:10px;margin:18px 0;flex-wrap:wrap}#seek{flex:1;min-width:150px}#frame{font-variant-numeric:tabular-nums;min-width:150px}.note{color:#aaa;line-height:1.5;font-size:13px}video{display:none}
+</style>
+<main><header><h1>Artwork review</h1><select id="project" aria-label="Production"></select><select id="speed" aria-label="Playback speed"><option value="1">1× speed</option><option value="0.5">½ speed</option><option value="0.25">¼ speed</option></select></header>
+<p id="status">Loading render reports…</p><p id="currentCheck" class="note"></p><p><a id="audit" style="color:#9cc7ff" hidden>Download every-frame audit (CSV)</a></p><div class="screens"><figure><figcaption>Reference artwork · muted</figcaption><canvas id="referenceCanvas"></canvas></figure><figure><figcaption>Authored draft · rebuilt soundtrack</figcaption><canvas id="candidateCanvas"></canvas></figure></div>
+<div class="controls"><button id="play">Play</button><button id="previous" aria-label="Previous frame">← frame</button><button id="next" aria-label="Next frame">frame →</button><input type="range" id="seek" min="0" value="0" aria-label="Frame"><output id="frame"></output></div>
+<p class="note">Only the authored soundtrack plays. Narrated drafts use local Kokoro speech; Creators has music/SFX only. The player uses delivery MP4s; exact acceptance is computed separately from every decoded RGB frame of the lossless master. Arrow keys step frames. Space plays or pauses.</p>
+<video id="reference" muted preload="auto" playsinline></video><video id="candidate" preload="auto" playsinline></video></main>
+<script type="module">
+const $=id=>document.getElementById(id),reference=$('reference'),candidate=$('candidate'),seek=$('seek');
+const projects=await(await fetch('/api')).json();let current,origin=0,loading=true,loadVersion=0,seekVersion=0;
+for(const project of projects){const option=document.createElement('option');option.value=project.id;option.textContent=project.composition;option.disabled=!project.available;$('project').append(option);}
+const pause=()=>{reference.pause();candidate.pause();$('play').textContent='Play';};
+const paint=()=>{
+ if(!current||loading)return;
+ for(const [video,id,isReference]of [[reference,'referenceCanvas',true],[candidate,'candidateCanvas',false]]){
+  if(video.readyState<2)continue;
+  const canvas=$(id),crop=isReference&&current.crop;
+  canvas.width=current.width;canvas.height=current.height;
+  canvas.getContext('2d').drawImage(video,crop?crop.x:0,crop?crop.y:0,crop?crop.width:video.videoWidth,crop?crop.height:video.videoHeight,0,0,canvas.width,canvas.height);
+ }
+ const frame=Math.max(0,Math.min(current.frames-1,Math.floor(candidate.currentTime*current.fps+.0001)));
+ seek.value=frame;$('frame').textContent=`Frame ${frame} / ${current.frames-1}`;
+ const check=current.result?.frameChecks?.[frame];
+ $('currentCheck').textContent=check?`RGB master audit · frame ${frame}: ${check.pixelsEqual?'pixels equal':'pixels differ'} · ${check.relativePtsEqual?'time equal':'time differs'}`:'This export needs a current every-frame audit.';
+};
+const seekTo=(video,time)=>new Promise(resolve=>{
+ if(video.readyState>=2&&Math.abs(video.currentTime-time)<.00001&&!video.seeking){resolve();return;}
+ video.addEventListener('seeked',resolve,{once:true});video.currentTime=time;
+});
+const step=async frame=>{
+ if(!current||loading)return;pause();const version=++seekVersion,projectVersion=loadVersion;
+ frame=Math.max(0,Math.min(current.frames-1,frame));seek.value=frame;
+ await Promise.all([seekTo(candidate,(frame+.15)/current.fps),seekTo(reference,origin+(frame+.15)/current.fps)]);
+ if(version===seekVersion&&projectVersion===loadVersion)paint();
+};
+const load=async()=>{
+ pause();loading=true;const version=++loadVersion;++seekVersion;
+ document.querySelector('.screens').style.visibility='hidden';$('frame').textContent='Loading artwork…';$('currentCheck').textContent='';
+ current=projects.find(project=>project.id===$('project').value);origin=current.result?.timeOrigins?.reference??1/current.fps;
+ seek.max=current.frames-1;seek.value=0;
+ const result=current.result;
+ $('audit').hidden=!result?.frameChecks;$('audit').href=`/frames?project=${current.id}`;
+ $('status').textContent=result?(result.passed?'Exact visual parity passed.':`Exact visual parity FAILED · ${result.pixelMismatchCount??'?'} / ${current.frames} frames differ · ${result.failures.join(', ')}`):'No full comparison report available.';
+ const ready=Promise.all([reference,candidate].map(video=>new Promise(resolve=>video.addEventListener('loadeddata',resolve,{once:true}))));
+ reference.src=`/media?project=${current.id}&kind=reference`;candidate.src=`/media?project=${current.id}&kind=candidate`;
+ await ready;if(version!==loadVersion)return;
+ await Promise.all([seekTo(candidate,.15/current.fps),seekTo(reference,origin+.15/current.fps)]);
+ if(version!==loadVersion)return;loading=false;document.querySelector('.screens').style.visibility='visible';paint();
+};
+$('project').onchange=load;$('seek').oninput=()=>step(Number(seek.value));
+$('previous').onclick=()=>step(Number(seek.value)-1);$('next').onclick=()=>step(Number(seek.value)+1);
+$('speed').onchange=()=>{reference.playbackRate=candidate.playbackRate=Number($('speed').value);};
+$('play').onclick=async()=>{if(loading)return;if(!candidate.paused){pause();return;}if(candidate.currentTime>=(current.frames-.5)/current.fps)await step(0);reference.currentTime=origin+candidate.currentTime;await Promise.all([reference.play(),candidate.play()]);$('play').textContent='Pause';};
+const tick=()=>{if(current&&!loading&&!candidate.paused){if(candidate.currentTime>=current.frames/current.fps){pause();step(current.frames-1);}else if(Math.abs(reference.currentTime-origin-candidate.currentTime)>1.5/current.fps)reference.currentTime=origin+candidate.currentTime;paint();}requestAnimationFrame(tick);};
+document.addEventListener('keydown',event=>{if(event.target.tagName==='SELECT')return;if(['ArrowLeft','ArrowRight',' '].includes(event.key))event.preventDefault();if(event.key==='ArrowLeft')$('previous').click();if(event.key==='ArrowRight')$('next').click();if(event.key===' ')$('play').click();});
+tick();load();
+</script></html>

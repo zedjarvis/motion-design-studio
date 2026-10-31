@@ -1,0 +1,8 @@
+{
+  "alconost-localization": [
+    {"name":"missing-translation-card","bounds":[430,670,410,310],"frames":[0,110],"activeMAE":0.5}
+  ],
+  "minimalist-priceless": [
+    {"name":"left-swinging-string","bounds":[150,120,300,700],"frames":[330,366],"activeMAE":0.5}
+  ]
+}

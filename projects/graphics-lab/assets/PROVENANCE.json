@@ -1,0 +1,30 @@
+{
+  "source": "p5.brush 3.0.0 standalone, official installed library",
+  "seed": 931,
+  "noiseSeed": 931,
+  "width": 900,
+  "height": 180,
+  "pixelDensity": 1,
+  "sha256": "75fafd3381958b6bb8b9d911a6d1d6ecb102f416eb2908d2419528d4bbdee764",
+  "generator": "scripts/build-art.mjs",
+  "generatorSha256": "7ed143f62bbf42532aa4efae432f3ffa5c658d56cfaea59c083c836fe9ff9adc",
+  "license": "Studio-authored artwork generated using p5.brush (MIT); library notice retained in THIRD_PARTY_NOTICES.txt",
+  "usage": "Build-time p5.brush marker alpha, tinted to brand mint with a native Canvas2D source-in pass; Remotion controls its reveal. No reference artwork is used.",
+  "verification": {
+    "freshPageRgbEqual": true,
+    "paintedPixels": 30387
+  },
+  "availableBrushes": [
+    "pen",
+    "rotring",
+    "2B",
+    "HB",
+    "2H",
+    "cpencil",
+    "pastel",
+    "crayon",
+    "charcoal",
+    "spray",
+    "marker"
+  ]
+}

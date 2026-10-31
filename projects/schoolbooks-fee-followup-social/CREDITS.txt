@@ -1,0 +1,5 @@
+Product identity and Demo School UI: user-provided Schoolbooks repo. Fictional data in the authored demonstration.
+Music: “Happy Beats / Business Moves, Vol. 9” by Sascha Ende, https://ende.app/en (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), mixed/faded/ducked.
+SFX: Kenney.nl (CC0).
+Narration: original script, AI-generated locally using Kokoro af_heart via Hyperframes.
+Library notices: THIRD_PARTY_NOTICES.txt accompanies the export and is retained at studio root. Fonts: Inter/Manrope, SIL OFL 1.1; notices retained with source assets.

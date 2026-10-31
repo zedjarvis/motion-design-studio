@@ -1,0 +1,57 @@
+{
+  "project": "schoolbooks-feature-guide",
+  "fps": 30,
+  "durationInFrames": 720,
+  "voiceover": true,
+  "syncStatus": "Frame-indexed authored cues; final listening review separate",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3",
+    "gain": 0.2,
+    "fadeInFrames": 6,
+    "fadeOutFrames": 30
+  },
+  "cues": [
+    {
+      "frame": 150,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.11,
+      "action": "Step two"
+    },
+    {
+      "frame": 183,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.11,
+      "action": "Review action click"
+    },
+    {
+      "frame": 330,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.11,
+      "action": "Step three"
+    },
+    {
+      "frame": 399,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.11,
+      "action": "Create follow-up task click"
+    },
+    {
+      "frame": 415,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.09,
+      "action": "Verified task result"
+    },
+    {
+      "frame": 510,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.11,
+      "action": "Open task step"
+    },
+    {
+      "frame": 531,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.11,
+      "action": "Select the real History tab"
+    }
+  ]
+}

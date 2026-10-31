@@ -1,0 +1,28 @@
+{
+  "project": "schoolbooks-fee-followup-social",
+  "provider": "kokoro",
+  "voice": "af_heart",
+  "fps": 30,
+  "durationInFrames": 450,
+  "scriptOrigin": "Original source-backed product narration; no reference transcript. Current user voiceover preference retained.",
+  "segments": [
+    {
+      "startFrame": 6,
+      "endFrame": 138,
+      "text": "Still chasing overdue fees?",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 156,
+      "endFrame": 321,
+      "text": "Review the finding, then prepare a personal follow-up task. Your invoice stays unchanged.",
+      "fitPolicy": "natural-within-window"
+    },
+    {
+      "startFrame": 342,
+      "endFrame": 446,
+      "text": "Give every balance a next step. Explore Schoolbooks.",
+      "fitPolicy": "natural-within-window"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "project": "glassy-phone",
+  "fps": 24.0,
+  "durationInFrames": 364,
+  "syncStatus": "fitted to reference ASR phrase bounds; final listening review pending",
+  "music": {
+    "src": "audio/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3",
+    "gain": 0.2,
+    "fadeInFrames": 3,
+    "fadeOutFrames": 17
+  },
+  "cues": [
+    {
+      "frame": 24,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.135,
+      "action": "Phone settles"
+    },
+    {
+      "frame": 43,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.12,
+      "action": "Icons lift"
+    },
+    {
+      "frame": 66,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.15,
+      "action": "Message notification"
+    },
+    {
+      "frame": 128,
+      "src": "audio/sfx/casino/card-slide-1.ogg",
+      "gain": 0.12,
+      "action": "Camera transition"
+    },
+    {
+      "frame": 153,
+      "src": "audio/sfx/interface/click_003.ogg",
+      "gain": 0.15,
+      "action": "Record action"
+    },
+    {
+      "frame": 225,
+      "src": "audio/sfx/interface/drop_001.ogg",
+      "gain": 0.15,
+      "action": "Map transition"
+    },
+    {
+      "frame": 304,
+      "src": "audio/sfx/impact/impactSoft_medium_001.ogg",
+      "gain": 0.15,
+      "action": "Brand reveal"
+    }
+  ],
+  "voiceover": true,
+  "method": "Brag --voice: local Kokoro af_heart narration plus licensed Sascha Ende music and Kenney SFX. Music ducks to 0.13 beneath speech."
+}

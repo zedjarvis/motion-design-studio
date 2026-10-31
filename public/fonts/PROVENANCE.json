@@ -1,0 +1,67 @@
+{
+  "fonts": [
+    {
+      "file": "Roboto-Mono-400.ttf",
+      "family": "Roboto Mono",
+      "sha256": "329949c551e04130eeb43580e149a2d548090e71359d05d925329ae123fac5c9",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/robotomono",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Bodoni-Moda-400.ttf",
+      "family": "Bodoni Moda",
+      "sha256": "7bf8604bdeb63fe00278935c1a7e8595de56dfc053ab43581ca848ffd5ad11ba",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/bodonimoda",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Inter-700.ttf",
+      "family": "Inter",
+      "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Inter-800.ttf",
+      "family": "Inter",
+      "sha256": "eec66af7f2337bd34fe6e801cf92ededcb57a20c0d7bc40a61d4eefcbe3dd40c",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Inter-500.ttf",
+      "family": "Inter",
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Inter-400.ttf",
+      "family": "Inter",
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    },
+    {
+      "file": "Inter-600.ttf",
+      "family": "Inter",
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7",
+      "source": "Google Fonts distribution; exact transfer URL was not retained",
+      "upstream": "https://github.com/google/fonts/tree/main/ofl/inter",
+      "license": "SIL Open Font License 1.1; accompanying OFL text included",
+      "matchStatus": "Pinned candidate font; not identified as exact reference font"
+    }
+  ]
+}

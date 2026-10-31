@@ -1,0 +1,58 @@
+# Dependencies, caches and local machine configuration
+node_modules/
+.cache/
+.venv*/
+.studio.local.json
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.DS_Store
+
+# Generated reports, captures, models and exports
+analysis/
+out/
+coverage/
+.coverage*
+!.coveragerc
+*.mp4
+*.mkv
+*.nut
+public/generated/
+projects/**/delivery.json
+projects/**/evidence.json
+references/candidates.json
+projects/**/assets/voice/
+public/**/voice/
+
+# Optional product/benchmark media without a redistribution grant.
+# Keep source, licensed fonts/audio, and authored diagnostic artwork public.
+projects/*/assets/**/*.png
+projects/*/assets/**/*.jpg
+projects/*/assets/**/*.jpeg
+projects/*/assets/**/*.webp
+projects/*/assets/**/*.svg
+!projects/graphics-lab/assets/paint-stroke.png
+public/*/*.png
+public/*/*.jpg
+public/*/*.jpeg
+public/*/*.webp
+public/*/*.svg
+!public/studio-art/paint-stroke.png
+public/*/native-ui/
+
+# Publisher-owned research illustrations are linked, not redistributed.
+docs/research/cursors/evidence/
+
+# Transcribed reference narration is not licensed for public redistribution.
+projects/alconost-localization/narration.json
+projects/alconost-localization/SCRIPT.md
+projects/minimalist-priceless/narration.json
+projects/minimalist-priceless/SCRIPT.md
+projects/glassy-phone/narration.json
+projects/glassy-phone/SCRIPT.md
