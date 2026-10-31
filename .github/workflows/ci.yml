@@ -1,0 +1,60 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CHROME_PATH: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install system media tools
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install pinned dependencies
+        run: |
+          npx --yes pnpm@11.22.0 install --frozen-lockfile --ignore-scripts
+          python -m pip install -r scripts/test-requirements.txt
+      - name: Public release boundaries
+        run: npm run audit:release
+      - name: TypeScript
+        run: npm run typecheck
+      - name: Python branch coverage
+        run: |
+          python -m coverage run -m unittest discover -s tests -p '*_test.py'
+          python -m coverage report
+          python -m coverage json
+          python -m coverage html
+      - name: Node coverage and native UI regressions
+        run: npm run test:coverage
+      - name: Real browser and render integration
+        run: npm run test:browser
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: verification-evidence
+          path: |
+            coverage/
+            analysis/ci/
+            analysis/cursors/report.json
+            analysis/capabilities/report.json
+            out/EngineCheck/**/receipt.json
+            out/CursorProbe/**/receipt.json
+          if-no-files-found: ignore
+          retention-days: 7

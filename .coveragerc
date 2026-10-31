@@ -1,0 +1,19 @@
+[run]
+branch = True
+include =
+    scripts/compare.py
+    scripts/parity-suite.py
+    scripts/references.py
+    scripts/audio.py
+    scripts/voiceover.py
+
+[report]
+show_missing = True
+precision = 2
+fail_under = 85
+
+[html]
+directory = coverage/python
+
+[json]
+output = coverage/python.json
